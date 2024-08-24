@@ -14,6 +14,7 @@ Install the package via NuGet:
 
 ```bash
 dotnet add package ismkdc.SqlKata.PostgresqlCachedCompiler
+```
 
 ## Usage Example
 
