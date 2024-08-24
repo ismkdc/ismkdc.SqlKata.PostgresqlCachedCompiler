@@ -14,3 +14,18 @@ Install the package via NuGet:
 
 ```bash
 dotnet add package ismkdc.SqlKata.PostgresqlCachedCompiler
+
+## Usage Example
+
+To use the `PostgresqlCachedCompiler` with SQLKata and PostgreSQL, follow these simple steps:
+
+```csharp
+using SqlKata.Compilers;
+using SqlKata.Execution;
+using ismkdc.SqlKata;
+
+// Create a new instance of the cached compiler
+var compiler = new PostgresqlCachedCompiler();
+
+// Use the cached compiler with QueryFactory
+return new QueryFactory(connection, compiler);
