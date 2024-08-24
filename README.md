@@ -23,7 +23,7 @@ To use the `PostgresqlCachedCompiler` with SQLKata and PostgreSQL, follow these 
 ```csharp
 using SqlKata.Compilers;
 using SqlKata.Execution;
-using ismkdc.SqlKata;
+using ismkdc.SqlKata.PostgresqlCachedCompiler;
 
 // Create a new instance of the cached compiler
 var compiler = new PostgresqlCachedCompiler();
