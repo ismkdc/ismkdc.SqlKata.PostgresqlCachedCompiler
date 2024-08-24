@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ismkdc\\projects\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ismkdc\\projects\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ismkdc\\projects\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler.csproj",
+        "projectName": "ismkdc.SqlKata.PostgresqlCachedCompiler",
+        "projectPath": "C:\\Users\\ismkdc\\projects\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler.csproj",
+        "packagesPath": "C:\\Users\\ismkdc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ismkdc\\projects\\ismkdc.SqlKata.CachedCompiler\\ismkdc.SqlKata.CachedCompiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ismkdc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SqlKata": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
